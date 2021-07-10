@@ -49,9 +49,10 @@ public class MainMenu
 
 			public static void main(String[] args) throws Exception 
 			{
-				
+				@SuppressWarnings("unused")
 				WelcomePage wp = new WelcomePage();
 				WelcomePage.welcomePage();
+				@SuppressWarnings("unused")
 				String mm=mainMenu();
 			}
 }
