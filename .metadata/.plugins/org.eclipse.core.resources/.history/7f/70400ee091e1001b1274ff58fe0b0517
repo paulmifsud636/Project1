@@ -36,10 +36,6 @@ public class OptionMenu
 		{	
 			// Search and open a file
 			case "1":
-				SearchFile sf = new SearchFile();
-				sf.searchFile();
-				wait(100);
-				OptionMenu.optionMenu();
 			break;
 			
 			// Add a file
@@ -52,11 +48,7 @@ public class OptionMenu
 			
 			// Delete a file
 			case "3":
-				@SuppressWarnings("unused") 
-				DeleteFile delete= new DeleteFile();
-				DeleteFile.deleteFile();
-				wait(100);
-				OptionMenu.optionMenu();
+			
 			break;
 			
 			// Return to main menu

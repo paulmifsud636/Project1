@@ -1,5 +1,6 @@
 package Package;
 
+
 import java.io.*;
 import java.util.Scanner;
 
@@ -13,7 +14,9 @@ public class FilesList
         		  // Takes user input of directory path 
         		  System.out.print("Enter directory path: ");
         		  String DirectoryPath = scanner.nextLine(); 	
-        		  File path = new File(DirectoryPath);    		    		
+        		  File path = new File(DirectoryPath);
+     		    		
+     
         		  File[] files = path.listFiles();
         		  for (File file : files) 
         		  {

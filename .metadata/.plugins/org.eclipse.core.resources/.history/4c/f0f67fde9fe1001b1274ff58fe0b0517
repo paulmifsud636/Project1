@@ -1,0 +1,15 @@
+package Package;
+
+public class WelcomePage 
+{
+	public static void welcomePage()   
+	{
+		// Application header
+		System.out.println("                         _____________________________________________");
+		System.out.println("LockedMe.com Application _____________________________________________");
+		System.out.println("______________________________________________________________________");
+		System.out.println("______________________________________________________________________");
+		System.out.println("___________________________________________________ Developer: PMifsud"); 
+		System.out.println("______________________________________________________ Lockers PVT ltd");			
+	}
+}
